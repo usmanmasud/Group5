@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git & GitHub — SWE4201</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-meta">SWE4201 — Software Configuration Management &amp; Maintenance</div>
+    <h1>Git &amp; GitHub</h1>
+    <p class="subtitle">A concise overview of version control fundamentals</p>
+    <div class="student-info">
+      <span>Usman Masud Aliyu</span>
+      <span class="divider">|</span>
+      <span>CST/22/SWE/00834</span>
+      <span class="divider">|</span>
+      <span>Bayero University Kano</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Section 1 -->
+    <section>
+      <h2><span class="section-tag">01</span> What is Git?</h2>
+      <p>
+        Git is a free, open-source <strong>distributed version control system (DVCS)</strong> created by
+        Linus Torvalds in 2005. It allows multiple developers to track changes in source code,
+        collaborate simultaneously, and revert to previous states of a project without losing work.
+      </p>
+      <p>
+        Unlike centralized systems, every Git user holds a full copy of the project history locally,
+        making operations fast and enabling offline work.
+      </p>
+    </section>
+
+    <!-- Section 2 -->
+    <section>
+      <h2><span class="section-tag">02</span> Core Git Concepts</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Repository (Repo)</h3>
+          <p>A directory tracked by Git. Contains all project files and the full commit history inside a hidden <code>.git/</code> folder.</p>
+        </div>
+        <div class="card">
+          <h3>Commit</h3>
+          <p>A snapshot of changes at a point in time. Each commit has a unique SHA hash, an author, a timestamp, and a message.</p>
+        </div>
+        <div class="card">
+          <h3>Branch</h3>
+          <p>An independent line of development. The default branch is usually called <code>main</code>. Branches let teams work in parallel.</p>
+        </div>
+        <div class="card">
+          <h3>Merge</h3>
+          <p>Combines changes from one branch into another. Git attempts to merge automatically; conflicts are resolved manually.</p>
+        </div>
+        <div class="card">
+          <h3>Staging Area</h3>
+          <p>Also called the index. A preparation zone where changes are reviewed before being committed to the history.</p>
+        </div>
+        <div class="card">
+          <h3>Clone</h3>
+          <p>Creates a local copy of a remote repository, including all branches and the complete commit history.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section>
+      <h2><span class="section-tag">03</span> Essential Git Commands</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Command</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><code>git init</code></td><td>Initialise a new Git repository in the current directory.</td></tr>
+          <tr><td><code>git clone &lt;url&gt;</code></td><td>Clone a remote repository locally.</td></tr>
+          <tr><td><code>git add &lt;file&gt;</code></td><td>Stage a file for the next commit.</td></tr>
+          <tr><td><code>git commit -m "msg"</code></td><td>Save staged changes with a descriptive message.</td></tr>
+          <tr><td><code>git status</code></td><td>Show the working tree status (staged, unstaged, untracked).</td></tr>
+          <tr><td><code>git log</code></td><td>Display the commit history.</td></tr>
+          <tr><td><code>git branch &lt;name&gt;</code></td><td>Create a new branch.</td></tr>
+          <tr><td><code>git checkout &lt;branch&gt;</code></td><td>Switch to an existing branch.</td></tr>
+          <tr><td><code>git merge &lt;branch&gt;</code></td><td>Merge a branch into the current one.</td></tr>
+          <tr><td><code>git pull</code></td><td>Fetch remote changes and merge them into the local branch.</td></tr>
+          <tr><td><code>git push</code></td><td>Upload local commits to the remote repository.</td></tr>
+          <tr><td><code>git diff</code></td><td>Show changes between commits, branches, or the working directory.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section 4 -->
+    <section>
+      <h2><span class="section-tag">04</span> What is GitHub?</h2>
+      <p>
+        GitHub is a cloud-based platform built on top of Git. It provides a web interface for hosting
+        repositories, reviewing code, managing issues, and collaborating with teams worldwide.
+        Founded in 2008 and acquired by Microsoft in 2018, GitHub hosts over 100 million developers.
+      </p>
+      <p>
+        While Git is the underlying tool that manages version history, GitHub adds collaboration
+        features such as Pull Requests, code review, project boards, and GitHub Actions for CI/CD.
+      </p>
+    </section>
+
+    <!-- Section 5 -->
+    <section>
+      <h2><span class="section-tag">05</span> Git vs GitHub</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Git</th>
+            <th>GitHub</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Type</td><td>CLI tool / Software</td><td>Cloud platform / Service</td></tr>
+          <tr><td>Purpose</td><td>Local version control</td><td>Remote hosting &amp; collaboration</td></tr>
+          <tr><td>Internet required</td><td>No</td><td>Yes</td></tr>
+          <tr><td>GUI</td><td>No (terminal-based)</td><td>Yes (web interface)</td></tr>
+          <tr><td>Access control</td><td>N/A</td><td>Public &amp; private repos</td></tr>
+          <tr><td>CI/CD</td><td>No</td><td>GitHub Actions</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Section 6 -->
+    <section>
+      <h2><span class="section-tag">06</span> A Typical Git Workflow</h2>
+      <ol class="workflow-list">
+        <li><strong>Initialise or Clone</strong> — Start a repo with <code>git init</code> or pull an existing one with <code>git clone</code>.</li>
+        <li><strong>Create a Branch</strong> — Isolate your feature or fix: <code>git checkout -b feature/my-feature</code>.</li>
+        <li><strong>Edit Files</strong> — Make changes to source code in your working directory.</li>
+        <li><strong>Stage Changes</strong> — Add modified files to the staging area: <code>git add .</code></li>
+        <li><strong>Commit</strong> — Save a snapshot: <code>git commit -m "feat: add login page"</code>.</li>
+        <li><strong>Push to Remote</strong> — Upload to GitHub: <code>git push origin feature/my-feature</code>.</li>
+        <li><strong>Open a Pull Request</strong> — Request a code review from teammates on GitHub.</li>
+        <li><strong>Merge</strong> — After approval, merge the branch into <code>main</code>.</li>
+      </ol>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>SWE4201 — Software Configuration Management &amp; Maintenance &nbsp;·&nbsp; Bayero University Kano</p>
+    <p>Usman Masud Aliyu &nbsp;·&nbsp; CST/22/SWE/00834</p>
+  </footer>
+
+</body>
+</html>
