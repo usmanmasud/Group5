@@ -2,9 +2,9 @@ Group Collaboration Practice
 
 Group Information
 
-Group Name: (Enter your group name here)
-Course: (Enter course title)
-Instructor: (Enter instructor name)
+Group Name: Group5
+Course: Software Configuration Management
+Instructor: Prof. Galadanci
 
 ---
 
@@ -61,7 +61,7 @@ Group Members
 
 (Add your names below)
 
-- Member 1
+- Rukayya Faruk 
 - Member 2
 - Member 3
 - Member 4
