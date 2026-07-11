@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Git & GitHub — SWE4201</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <header>
@@ -43,23 +45,28 @@
       <div class="card-grid">
         <div class="card">
           <h3>Repository (Repo)</h3>
-          <p>A directory tracked by Git. Contains all project files and the full commit history inside a hidden <code>.git/</code> folder.</p>
+          <p>A directory tracked by Git. Contains all project files and the full commit history inside a hidden
+            <code>.git/</code> folder.</p>
         </div>
         <div class="card">
           <h3>Commit</h3>
-          <p>A snapshot of changes at a point in time. Each commit has a unique SHA hash, an author, a timestamp, and a message.</p>
+          <p>A snapshot of changes at a point in time. Each commit has a unique SHA hash, an author, a timestamp, and a
+            message.</p>
         </div>
         <div class="card">
           <h3>Branch</h3>
-          <p>An independent line of development. The default branch is usually called <code>main</code>. Branches let teams work in parallel.</p>
+          <p>An independent line of development. The default branch is usually called <code>main</code>. Branches let
+            teams work in parallel.</p>
         </div>
         <div class="card">
           <h3>Merge</h3>
-          <p>Combines changes from one branch into another. Git attempts to merge automatically; conflicts are resolved manually.</p>
+          <p>Combines changes from one branch into another. Git attempts to merge automatically; conflicts are resolved
+            manually.</p>
         </div>
         <div class="card">
           <h3>Staging Area</h3>
-          <p>Also called the index. A preparation zone where changes are reviewed before being committed to the history.</p>
+          <p>Also called the index. A preparation zone where changes are reviewed before being committed to the history.
+          </p>
         </div>
         <div class="card">
           <h3>Clone</h3>
@@ -79,18 +86,54 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td><code>git init</code></td><td>Initialise a new Git repository in the current directory.</td></tr>
-          <tr><td><code>git clone &lt;url&gt;</code></td><td>Clone a remote repository locally.</td></tr>
-          <tr><td><code>git add &lt;file&gt;</code></td><td>Stage a file for the next commit.</td></tr>
-          <tr><td><code>git commit -m "msg"</code></td><td>Save staged changes with a descriptive message.</td></tr>
-          <tr><td><code>git status</code></td><td>Show the working tree status (staged, unstaged, untracked).</td></tr>
-          <tr><td><code>git log</code></td><td>Display the commit history.</td></tr>
-          <tr><td><code>git branch &lt;name&gt;</code></td><td>Create a new branch.</td></tr>
-          <tr><td><code>git checkout &lt;branch&gt;</code></td><td>Switch to an existing branch.</td></tr>
-          <tr><td><code>git merge &lt;branch&gt;</code></td><td>Merge a branch into the current one.</td></tr>
-          <tr><td><code>git pull</code></td><td>Fetch remote changes and merge them into the local branch.</td></tr>
-          <tr><td><code>git push</code></td><td>Upload local commits to the remote repository.</td></tr>
-          <tr><td><code>git diff</code></td><td>Show changes between commits, branches, or the working directory.</td></tr>
+          <tr>
+            <td><code>git init</code></td>
+            <td>Initialise a new Git repository in the current directory.</td>
+          </tr>
+          <tr>
+            <td><code>git clone &lt;url&gt;</code></td>
+            <td>Clone a remote repository locally.</td>
+          </tr>
+          <tr>
+            <td><code>git add &lt;file&gt;</code></td>
+            <td>Stage a file for the next commit.</td>
+          </tr>
+          <tr>
+            <td><code>git commit -m "msg"</code></td>
+            <td>Save staged changes with a descriptive message.</td>
+          </tr>
+          <tr>
+            <td><code>git status</code></td>
+            <td>Show the working tree status (staged, unstaged, untracked).</td>
+          </tr>
+          <tr>
+            <td><code>git log</code></td>
+            <td>Display the commit history.</td>
+          </tr>
+          <tr>
+            <td><code>git branch &lt;name&gt;</code></td>
+            <td>Create a new branch.</td>
+          </tr>
+          <tr>
+            <td><code>git checkout &lt;branch&gt;</code></td>
+            <td>Switch to an existing branch.</td>
+          </tr>
+          <tr>
+            <td><code>git merge &lt;branch&gt;</code></td>
+            <td>Merge a branch into the current one.</td>
+          </tr>
+          <tr>
+            <td><code>git pull</code></td>
+            <td>Fetch remote changes and merge them into the local branch.</td>
+          </tr>
+          <tr>
+            <td><code>git push</code></td>
+            <td>Upload local commits to the remote repository.</td>
+          </tr>
+          <tr>
+            <td><code>git diff</code></td>
+            <td>Show changes between commits, branches, or the working directory.</td>
+          </tr>
         </tbody>
       </table>
     </section>
@@ -121,22 +164,77 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>Type</td><td>CLI tool / Software</td><td>Cloud platform / Service</td></tr>
-          <tr><td>Purpose</td><td>Local version control</td><td>Remote hosting &amp; collaboration</td></tr>
-          <tr><td>Internet required</td><td>No</td><td>Yes</td></tr>
-          <tr><td>GUI</td><td>No (terminal-based)</td><td>Yes (web interface)</td></tr>
-          <tr><td>Access control</td><td>N/A</td><td>Public &amp; private repos</td></tr>
-          <tr><td>CI/CD</td><td>No</td><td>GitHub Actions</td></tr>
+          <tr>
+            <td>Type</td>
+            <td>CLI tool / Software</td>
+            <td>Cloud platform / Service</td>
+          </tr>
+          <tr>
+            <td>Purpose</td>
+            <td>Local version control</td>
+            <td>Remote hosting &amp; collaboration</td>
+          </tr>
+          <tr>
+            <td>Internet required</td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>GUI</td>
+            <td>No (terminal-based)</td>
+            <td>Yes (web interface)</td>
+          </tr>
+          <tr>
+            <td>Access control</td>
+            <td>N/A</td>
+            <td>Public &amp; private repos</td>
+          </tr>
+          <tr>
+            <td>CI/CD</td>
+            <td>No</td>
+            <td>GitHub Actions</td>
+          </tr>
         </tbody>
       </table>
     </section>
+
+
+
+    <!-- Section 5.5 (AbdulLah's Contribution) -->
+    <section>
+      <h2><span class="section-tag">5.5</span> Git Commit Best Practices</h2>
+      <p>
+        Writing clear commit messages makes tracking project history significantly easier for teams.
+        A well-structured commit message helps collaborators understand exactly <em>what</em> changed and <em>why</em>.
+      </p>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Be Descriptive</h3>
+          <p>Avoid vague messages like <code>"fixed stuff"</code> or <code>"updates"</code>. Use precise descriptions
+            like <code>"feat: add login validation"</code> instead.</p>
+        </div>
+        <div class="card">
+          <h3>Use Imperative Mood</h3>
+          <p>Write your message as a command: <code>"Fix bug"</code> instead of <code>"Fixed bug"</code> or
+            <code>"Fixing bug"</code>. It matches Git's built-in message style.</p>
+        </div>
+        <div class="card">
+          <h3>Separate Concerns</h3>
+          <p>Commit small changes frequently rather than saving massive chunks of unrelated work in a single commit.</p>
+        </div>
+      </div>
+    </section>
+
+
 
     <!-- Section 6 -->
     <section>
       <h2><span class="section-tag">06</span> A Typical Git Workflow</h2>
       <ol class="workflow-list">
-        <li><strong>Initialise or Clone</strong> — Start a repo with <code>git init</code> or pull an existing one with <code>git clone</code>.</li>
-        <li><strong>Create a Branch</strong> — Isolate your feature or fix: <code>git checkout -b feature/my-feature</code>.</li>
+        <li><strong>Initialise or Clone</strong> — Start a repo with <code>git init</code> or pull an existing one with
+          <code>git clone</code>.</li>
+        <li><strong>Create a Branch</strong> — Isolate your feature or fix:
+          <code>git checkout -b feature/my-feature</code>.</li>
         <li><strong>Edit Files</strong> — Make changes to source code in your working directory.</li>
         <li><strong>Stage Changes</strong> — Add modified files to the staging area: <code>git add .</code></li>
         <li><strong>Commit</strong> — Save a snapshot: <code>git commit -m "feat: add login page"</code>.</li>
@@ -154,4 +252,5 @@
   </footer>
 
 </body>
+
 </html>
