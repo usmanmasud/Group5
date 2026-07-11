@@ -61,7 +61,8 @@ Group Members
 
 (Add your names below)
 
-- Rukayya Faruk 
+- Rukayya Faruk
+- AbdulLah Isah (CST/23/SWE/01131)
 - Member 2
 - Member 3
 - Member 4
