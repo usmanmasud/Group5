@@ -62,7 +62,7 @@ Group Members
 (Add your names below)
 
 - Member 1
-- Member 2
+- AbdulLah Isah (CST/23/SWE/01131)
 - Member 3
 - Member 4
 
