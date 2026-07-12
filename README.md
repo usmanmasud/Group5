@@ -63,7 +63,7 @@ Group Members
 
 - Rukayya Faruk
 - AbdulLah Isah (CST/23/SWE/01131)
-- Member 2
+- VINATIUS CHINONSO ONUKA (CST/22/SWE/00842)
 - Member 3
 - Member 4
 
