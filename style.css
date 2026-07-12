@@ -107,6 +107,8 @@ header {
   line-height: 1.6;
 }
 
+
+
 .group-info {
   display: flex;
   justify-content: center;
@@ -295,3 +297,5 @@ footer {
     padding: 0.55rem 0.7rem;
   }
 }
+
+
