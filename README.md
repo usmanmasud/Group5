@@ -4,7 +4,7 @@ Group Information
 
 Group Name: Group5
 Course: Software Configuration Management
-Instructor: Prof. Galadanci
+Instructor: Prof. Bashir S. Galadanci
 
 ---
 
@@ -61,12 +61,12 @@ Group Members
 
 (Add your names below)
 
-- Rukayya Faruk
+- Rukayya Faruk (CST/22/SWE/00854)
 - AbdulLah Isah (CST/23/SWE/01131)
 - VINATIUS CHINONSO ONUKA (CST/22/SWE/00842)
 - Ahmad Nuhu Muhammad (CST/22/SWE/00806)
-- Member 4
-
+- Umar Abu Sufyan (CST/22/SWE/00847)
+- Yasir Sallau Isiaka (CST/22/SWE/00844)
 ---
 
 What We Are Practicing
