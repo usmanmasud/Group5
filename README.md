@@ -67,7 +67,7 @@ Group Members
 - Ahmad Nuhu Muhammad (CST/22/SWE/00806)
 - Umar Abu Sufyan (CST/22/SWE/00847)
 - Yasir Sallau Isiaka (CST/22/SWE/00844)
----
+Abdulhalim Abdullahi Tukur (CST/22/SWE/00801)
 
 What We Are Practicing
 
