@@ -1,7 +1,7 @@
 function initScrollToTop() {
     "use strict";
     
-    const SHOW_AFTER_PX = 300;
+    const SHOW_AFTER_PX = 350;
     
     const btn = document.createElement("button");
     btn.id = "backToTopBtn";
