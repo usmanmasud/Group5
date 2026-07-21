@@ -69,7 +69,7 @@ Group Members
 - Yasir Sallau Isiaka (CST/22/SWE/00844)
 - Abdulhalim Abdullahi Tukur (CST/22/SWE/00801)
 - Ahmed Abdulwahab (CST/22/SWE/00807)
-- Imrana Zakari Abdullahi
+- Imrana Zakari Abdullahi (CST/22/SWE/00802)
 
 What We Are Practicing
 
